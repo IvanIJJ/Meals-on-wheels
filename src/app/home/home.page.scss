@@ -1,5 +1,64 @@
 .logo{
-    width:15rem ;
-    height: 5rem;
+    width:20rem ;
+    height: 10rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+.box{
+    width:10rem ;
+    height: 15rem;
+    .carousel{
+    height:15rem;
+    padding: 0px;
+}
 }
 
+.button{
+    width: 15rem;
+    height: 3rem;
+   .text{
+        font-weight:bolder;
+        margin-left: 5%;
+        margin-top: 8%;
+   }
+   ion-icon{
+    font-size: 1.6rem;
+   }
+   .icon{
+        margin-left:30% ;
+   
+   }
+}
+.button2{
+        width: 15rem;
+        height: 3rem;
+   .text2{
+        margin-left:5%;
+        margin-top: 10%;
+        font-weight:bolder;
+
+   }
+   ion-icon{
+    font-size: 1.6rem;
+   }
+   .icon2{
+        margin-left:52% ;
+   
+   }
+}
+.button3{
+    width: 15rem;
+    height: 3rem;
+   .text3{
+        margin-left: 5%;
+        margin-top: 8%;
+        font-weight:bolder;
+   }
+   ion-icon{
+    font-size: 1.6rem;
+   }
+   .icon3{
+        margin-left:30% ;
+   
+   }
+}

@@ -4,8 +4,56 @@
   </ion-toolbar>
 </ion-header>
 
-<ion-content>
+<ion-content class="ion-text-center">
   
     <ion-img class="logo" src="/assets/Img/mow.jpg" alt="Logo"></ion-img>
-  
-</ion-content>
+
+    <ion-slides pager='true' [options]='slideOpts'>
+      <ion-slide *ngFor='let i of [1,2,3,4,5]'>
+        <div class="box">
+           <img class="carousel" src="/assets/Img/1.jpg">
+        </div>
+      
+      </ion-slide>
+    </ion-slides>
+    <!-- <ion-button>
+      Right Icon
+      <ion-icon slot="end" name="star"></ion-icon>
+    </ion-button>
+   
+    <ion-button>
+      Right Icon
+      <ion-icon slot="end" name="star"></ion-icon>
+    </ion-button>
+
+    <ion-button>
+      Right Icon
+      <ion-icon slot="end" name="star"></ion-icon>
+    </ion-button> -->
+    <br/>
+    <ion-grid>
+      <ion-row>
+        <ion-col offset="0" offset-md="0" offset-lg="6">
+          <ion-button class="button">
+          <div class="text"><p>Select Branch</p></div>
+          <div class="icon" ><ion-icon  name="chevron-forward-outline" size="default"></ion-icon></div>
+        </ion-button>
+
+      </ion-col>
+        <ion-col offset="0" offset-md="0" offset-lg="6">
+          <ion-button class="button2">
+          <div class="text2"><p>Schedule</p></div>
+          <div class="icon2" ><ion-icon  name="chevron-forward-outline" size="default"></ion-icon></div>
+        </ion-button>
+
+      </ion-col>
+        <ion-col offset="0" offset-md="0" offset-lg="6">
+          <ion-button class="button3">
+          <div class="text3"><p>Important Documents</p></div>
+          <div class="icon4" ><ion-icon  name="chevron-forward-outline" size="default"></ion-icon></div>   
+        </ion-button>
+      </ion-col>
+       
+      </ion-row>
+    </ion-grid>
+    </ion-content>
